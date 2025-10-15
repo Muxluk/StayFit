@@ -319,4 +319,3 @@ CREATE UNIQUE INDEX idx_user_goals_active ON UserGoals (user_id) WHERE (is_activ
 - Всі ENUM українською мовою
 - Домени забезпечують уніфікацію та валідацію даних на рівні БД
 - CHECK constraints гарантують цілісність даних
-- Тригери автоматизують розрахунки та підтримку консистентності

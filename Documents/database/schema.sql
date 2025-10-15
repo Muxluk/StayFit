@@ -36,7 +36,7 @@ CREATE DOMAIN token_code_domain AS VARCHAR(6)
     CHECK (VALUE ~ '^[0-9]{6}$');
 
 CREATE DOMAIN language_code_domain AS VARCHAR(10)
-    CHECK (VALUE IN ('uk', 'en', 'ru'));
+    CHECK (VALUE IN ('uk', 'en'));
 
 -- Tables
 CREATE TABLE users (
